@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bd0b2fda-fe62-4fc5-b29b-4d86de722e37" name="Default Changelist" comment="" />
+    <list default="true" id="bd0b2fda-fe62-4fc5-b29b-4d86de722e37" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example002/test_my_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/example002/test_my_service.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +26,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/example001/test2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
+            <state relative-caret-position="45">
               <caret line="4" selection-start-line="4" selection-end-line="4" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
@@ -34,8 +38,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/example003/utils.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="446">
-              <caret line="152" lean-forward="true" selection-start-line="152" selection-end-line="152" />
+            <state relative-caret-position="138">
+              <caret line="152" selection-start-line="152" selection-end-line="152" />
               <folding>
                 <element signature="e#44#59#0" expanded="true" />
               </folding>
@@ -55,8 +59,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/example002/rest_api_service.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="78" column="57" lean-forward="true" selection-start-line="78" selection-start-column="57" selection-end-line="78" selection-end-column="57" />
+            <state relative-caret-position="251">
+              <caret line="133" column="30" lean-forward="true" selection-start-line="133" selection-start-column="30" selection-end-line="133" selection-end-column="30" />
               <folding>
                 <element signature="e#44#66#0" expanded="true" />
               </folding>
@@ -67,8 +71,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/example002/test_my_service.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="521">
-              <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+            <state relative-caret-position="293">
+              <caret line="27" column="26" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="26" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -84,6 +88,9 @@
         <option value="Python Script" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -110,37 +117,29 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="api_auto" type="b2602c69:ProjectViewProjectNode" />
-              <item name="api_auto" type="462c0819:PsiDirectoryNode" />
+              <item name="api_test_examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="api_test_examples" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="api_auto" type="b2602c69:ProjectViewProjectNode" />
-              <item name="api_auto" type="462c0819:PsiDirectoryNode" />
-              <item name="example001" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="api_auto" type="b2602c69:ProjectViewProjectNode" />
-              <item name="api_auto" type="462c0819:PsiDirectoryNode" />
+              <item name="api_test_examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="api_test_examples" type="462c0819:PsiDirectoryNode" />
               <item name="example002" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="api_auto" type="b2602c69:ProjectViewProjectNode" />
-              <item name="api_auto" type="462c0819:PsiDirectoryNode" />
-              <item name="example003" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -161,7 +160,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python tests.pytest for test_my_service.test_check_wrong_login">
     <configuration name="test_my_service" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="api_auto" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -183,8 +182,72 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="pytest for test_my_service.test_add_two_book_delete_one" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="api_auto" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/example002" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_my_service.test_add_two_book_delete_one&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_my_service.test_add_two_books" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="api_auto" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/example002" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_my_service.test_add_two_books&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_my_service.test_check_wrong_login" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="api_auto" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/example002" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_my_service.test_check_wrong_login&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_my_service.test_delete_book_by_id" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="api_auto" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/example002" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_my_service.test_delete_book_by_id&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest for test_my_service.test_check_wrong_login" />
+        <item itemvalue="Python tests.pytest for test_my_service.test_add_two_books" />
+        <item itemvalue="Python tests.pytest for test_my_service.test_add_two_book_delete_one" />
+        <item itemvalue="Python tests.pytest for test_my_service.test_delete_book_by_id" />
         <item itemvalue="Python.test_my_service" />
       </list>
     </recent_temporary>
@@ -202,16 +265,48 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="pytest_for_test_my_service_test_check_wrong_login - 2019.08.12 at 16h 15m 00s.xml">
+      <configuration name="pytest for test_my_service.test_check_wrong_login" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_my_service_test_check_wrong_login - 2019.08.12 at 16h 15m 13s.xml">
+      <configuration name="pytest for test_my_service.test_check_wrong_login" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_my_service_test_check_wrong_login - 2019.08.12 at 16h 15m 20s.xml">
+      <configuration name="pytest for test_my_service.test_check_wrong_login" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_my_service_test_check_wrong_login - 2019.08.12 at 16h 15m 27s.xml">
+      <configuration name="pytest for test_my_service.test_check_wrong_login" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_my_service_test_check_wrong_login - 2019.08.12 at 16h 16m 38s.xml">
+      <configuration name="pytest for test_my_service.test_check_wrong_login" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_my_service_test_check_wrong_login - 2019.08.12 at 16h 16m 50s.xml">
+      <configuration name="pytest for test_my_service.test_check_wrong_login" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_my_service_test_check_wrong_login - 2019.08.12 at 16h 17m 04s.xml">
+      <configuration name="pytest for test_my_service.test_check_wrong_login" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_my_service_test_check_wrong_login - 2019.08.12 at 16h 19m 36s.xml">
+      <configuration name="pytest for test_my_service.test_check_wrong_login" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_my_service_test_check_wrong_login - 2019.08.12 at 16h 19m 45s.xml">
+      <configuration name="pytest for test_my_service.test_check_wrong_login" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_my_service_test_check_wrong_login - 2019.08.12 at 16h 21m 22s.xml">
+      <configuration name="pytest for test_my_service.test_check_wrong_login" configurationId="tests" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
     <frame x="6" y="23" width="1400" height="795" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24945612" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24945612" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32859176" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32859176" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -242,7 +337,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/example001/test2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
+        <state relative-caret-position="45">
           <caret line="4" selection-start-line="4" selection-end-line="4" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
@@ -250,12 +345,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/example002/rest_api_service.py">
+    <entry file="file://$PROJECT_DIR$/example003/utils.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="78" column="57" lean-forward="true" selection-start-line="78" selection-start-column="57" selection-end-line="78" selection-end-column="57" />
+        <state relative-caret-position="138">
+          <caret line="152" selection-start-line="152" selection-end-line="152" />
           <folding>
-            <element signature="e#44#66#0" expanded="true" />
+            <element signature="e#44#59#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -267,20 +362,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/example003/utils.py">
+    <entry file="file://$PROJECT_DIR$/example002/rest_api_service.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="152" lean-forward="true" selection-start-line="152" selection-end-line="152" />
+        <state relative-caret-position="251">
+          <caret line="133" column="30" lean-forward="true" selection-start-line="133" selection-start-column="30" selection-end-line="133" selection-end-column="30" />
           <folding>
-            <element signature="e#44#59#0" expanded="true" />
+            <element signature="e#44#66#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/example002/test_my_service.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="521">
-          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+        <state relative-caret-position="293">
+          <caret line="27" column="26" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="26" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
