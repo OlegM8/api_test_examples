@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd0b2fda-fe62-4fc5-b29b-4d86de722e37" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/example002/test_my_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/example002/test_my_service.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,7 +24,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/example001/test2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
+            <state relative-caret-position="60">
               <caret line="4" selection-start-line="4" selection-end-line="4" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
@@ -38,8 +36,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/example003/utils.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="152" selection-start-line="152" selection-end-line="152" />
+            <state relative-caret-position="-933">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
               <folding>
                 <element signature="e#44#59#0" expanded="true" />
               </folding>
@@ -50,17 +48,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/example003/test_config.conf">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+            <state relative-caret-position="30">
+              <caret line="2" column="24" lean-forward="true" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/example002/rest_api_service.py">
+        <entry file="file://$PROJECT_DIR$/example003/rest_api_service.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
-              <caret line="133" column="30" lean-forward="true" selection-start-line="133" selection-start-column="30" selection-end-line="133" selection-end-column="30" />
+            <state relative-caret-position="-488">
+              <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
               <folding>
                 <element signature="e#44#66#0" expanded="true" />
               </folding>
@@ -69,10 +67,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/example002/test_my_service.py">
+        <entry file="file://$PROJECT_DIR$/example003/test_my_service.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="335">
-              <caret line="114" column="31" lean-forward="true" selection-start-line="114" selection-start-column="31" selection-end-line="114" selection-end-column="31" />
+            <state relative-caret-position="205">
+              <caret line="15" column="29" lean-forward="true" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -103,6 +101,9 @@
         <option value="$PROJECT_DIR$/lesson003/utils.py" />
         <option value="$PROJECT_DIR$/lesson003/test_config.conf" />
         <option value="$PROJECT_DIR$/example002/test_my_service.py" />
+        <option value="$PROJECT_DIR$/example003/utils.py" />
+        <option value="$PROJECT_DIR$/example003/test_config.conf" />
+        <option value="$PROJECT_DIR$/example003/test_my_service.py" />
       </list>
     </option>
   </component>
@@ -111,6 +112,9 @@
     <option name="y" value="23" />
     <option name="width" value="1400" />
     <option name="height" value="795" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -129,6 +133,11 @@
               <item name="api_test_examples" type="462c0819:PsiDirectoryNode" />
               <item name="example002" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="api_test_examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="api_test_examples" type="462c0819:PsiDirectoryNode" />
+              <item name="example003" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -138,7 +147,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/example003" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="PyConsoleOptionsProvider">
@@ -147,6 +156,11 @@
         <option name="useSoftWraps" value="true" />
       </console-settings>
     </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/example003" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -160,26 +174,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test_my_service.test_check_wrong_login">
-    <configuration name="test_my_service" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python tests.pytest for example003.test_my_service.test_check_login">
+    <configuration name="pytest for example003.test_my_service.test_check_login" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="api_auto" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson002" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson002/test_my_service.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;example003.test_my_service.test_check_login&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="pytest for test_my_service.test_add_two_book_delete_one" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
@@ -244,11 +252,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest for example003.test_my_service.test_check_login" />
         <item itemvalue="Python tests.pytest for test_my_service.test_check_wrong_login" />
         <item itemvalue="Python tests.pytest for test_my_service.test_add_two_books" />
         <item itemvalue="Python tests.pytest for test_my_service.test_add_two_book_delete_one" />
         <item itemvalue="Python tests.pytest for test_my_service.test_delete_book_by_id" />
-        <item itemvalue="Python.test_my_service" />
       </list>
     </recent_temporary>
   </component>
@@ -266,24 +274,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_test_my_service_test_check_wrong_login - 2019.08.12 at 16h 15m 00s.xml">
-      <configuration name="pytest for test_my_service.test_check_wrong_login" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_my_service_test_check_wrong_login - 2019.08.12 at 16h 15m 13s.xml">
-      <configuration name="pytest for test_my_service.test_check_wrong_login" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_my_service_test_check_wrong_login - 2019.08.12 at 16h 15m 20s.xml">
-      <configuration name="pytest for test_my_service.test_check_wrong_login" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_my_service_test_check_wrong_login - 2019.08.12 at 16h 15m 27s.xml">
-      <configuration name="pytest for test_my_service.test_check_wrong_login" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_my_service_test_check_wrong_login - 2019.08.12 at 16h 16m 38s.xml">
-      <configuration name="pytest for test_my_service.test_check_wrong_login" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_my_service_test_check_wrong_login - 2019.08.12 at 16h 16m 50s.xml">
-      <configuration name="pytest for test_my_service.test_check_wrong_login" configurationId="tests" />
-    </history-entry>
     <history-entry file="pytest_for_test_my_service_test_check_wrong_login - 2019.08.12 at 16h 17m 04s.xml">
       <configuration name="pytest for test_my_service.test_check_wrong_login" configurationId="tests" />
     </history-entry>
@@ -296,6 +286,24 @@
     <history-entry file="pytest_for_test_my_service_test_check_wrong_login - 2019.08.12 at 16h 21m 22s.xml">
       <configuration name="pytest for test_my_service.test_check_wrong_login" configurationId="tests" />
     </history-entry>
+    <history-entry file="pytest_for_example003_test_my_service_test_check_login - 2019.08.12 at 17h 42m 12s.xml">
+      <configuration name="pytest for example003.test_my_service.test_check_login" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_example003_test_my_service_test_check_login - 2019.08.12 at 17h 42m 50s.xml">
+      <configuration name="pytest for example003.test_my_service.test_check_login" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_example003_test_my_service_test_check_login - 2019.08.12 at 17h 50m 18s.xml">
+      <configuration name="pytest for example003.test_my_service.test_check_login" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_example003_test_my_service_test_check_login - 2019.08.12 at 17h 52m 00s.xml">
+      <configuration name="pytest for example003.test_my_service.test_check_login" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_example003_test_my_service_test_check_login - 2019.08.12 at 17h 52m 10s.xml">
+      <configuration name="pytest for example003.test_my_service.test_check_login" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_example003_test_my_service_test_check_login - 2019.08.12 at 17h 54m 33s.xml">
+      <configuration name="pytest for example003.test_my_service.test_check_login" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="6" y="23" width="1400" height="795" extended-state="0" />
@@ -306,7 +314,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32859176" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32859176" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -314,7 +322,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32859176" />
+      <window_info active="true" anchor="bottom" id="Python Console" order="10" visible="true" weight="0.32859176" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -328,37 +336,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/example001/test.py">
+    <entry file="file://$PROJECT_DIR$/example002/test_my_service.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example001/test2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="195">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
           <folding>
-            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#0#13#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example003/utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="152" selection-start-line="152" selection-end-line="152" />
-          <folding>
-            <element signature="e#44#59#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example003/test_config.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -372,10 +356,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/example002/test_my_service.py">
+    <entry file="file://$PROJECT_DIR$/example001/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="114" column="31" lean-forward="true" selection-start-line="114" selection-start-column="31" selection-end-line="114" selection-end-column="31" />
+        <state relative-caret-position="180">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example001/test2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example003/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-933">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="e#44#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example003/rest_api_service.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-488">
+          <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+          <folding>
+            <element signature="e#44#66#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example003/test_config.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="24" lean-forward="true" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example003/test_my_service.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="15" column="29" lean-forward="true" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>

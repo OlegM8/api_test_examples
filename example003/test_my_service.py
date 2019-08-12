@@ -1,43 +1,22 @@
 import pytest
-import requests
-from requests.auth import HTTPBasicAuth
 
-user = 'test_user'
-password = 'test_password'
-wrong_user = 'test_user1'
-wrong_password = 'test_password1'
+from .utils import *
 
 
-@pytest.fixture
-def auth_cookie():
-    """Method to get cookie"""
 
-    url = 'http://0.0.0.0:7000/login'
-    result = requests.get(url, auth=HTTPBasicAuth(user, password))
-    data = result.json()
 
-    yield data['auth_cookie']
 
 
 def test_check_login():
-    url = 'http://0.0.0.0:7000/login'
-    result = requests.get(url, auth=HTTPBasicAuth(user, password))
-    data = result.json()
-
-    print('Status code:', result.status_code)
-
-    # Check the status code is right and cookie is returned
-    assert result.status_code == 200
-    assert data['auth_cookie'] > ''
+    data = auth()
+    assert data['my_cookie'] > '', 'empty auth cookie'
 
 
 def test_check_wrong_login():
-    url = 'http://0.0.0.0:7000/login'
-    result = requests.get(url, auth=HTTPBasicAuth(wrong_user, wrong_password))
+    data = auth('wrong user', 'wrong password')
 
     # Wrong credentials status code is 401
-    print('Status code:', result.status_code)
-    assert result.status_code == 401
+    assert data == 401, 'status code is not 401'
 
 
 def test_check_list_of_books(auth_cookie):
