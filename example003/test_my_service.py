@@ -3,10 +3,6 @@ import pytest
 from .utils import *
 
 
-
-
-
-
 def test_check_login():
     data = auth()
     assert data['my_cookie'] > '', 'empty auth cookie'
@@ -19,12 +15,16 @@ def test_check_wrong_login():
     assert data == 401, 'status code is not 401'
 
 
-def test_check_list_of_books(auth_cookie):
-    url = 'http://0.0.0.0:7000/books'
-    result = requests.get(url, cookies={'my_cookie': auth_cookie})
+def test_check_list_of_books():
+    add_three_books()
+    all_books = get_all_books()
+    for book in all_books:
+        assert 'title' in book, 'no title of the book'
+        assert 'author' in book, 'no book author'
+        assert validate_uuid4(book['id']), 'invalid book id'
 
-    print(result.text)
-    assert result.status_code == 200
+        # Make sure that the list has at least 3 books:
+    assert len(all_books) >= 3, 'less than 3 books in the list'
 
 
 @pytest.mark.parametrize('title', ['', 'test', 'War and piece', '123', '!?.\'\"'])
