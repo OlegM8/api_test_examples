@@ -58,4 +58,4 @@ class MySuperProgram():
     def get_current_status_code(self):
         res = requests.get('https://api.ipify.org/?format=json')
 
-        return res.status_code
+        return res

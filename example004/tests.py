@@ -7,9 +7,10 @@ from product_example import MySuperProgram
 
 
 def mock_get_request_ip(*args, **kwargs):
+    data = {'ip': '1.1.1.1', 'country': 'Russia'}
     result = MagicMock()
-    result.json = MagicMock(return_value={'ip': '1.1.1.1', 'country': 'Russia'})
-
+    result.json.return_value = data
+    result.status_code = 300
     return result
 
 
@@ -65,6 +66,25 @@ class MyTests(unittest.TestCase):
 
         expected_url = 'https://api.ipify.org/?format=json'
         mock_get.assert_called_once_with(expected_url)
+
+
+    @patch('requests.get', side_effect=mock_get_request_ip)
+    def test_get_status_code(self, mock_get):
+        prog = MySuperProgram()
+        status = prog.get_current_status_code()
+        print('status code is '+ str(status.status_code))
+
+        assert status.status_code == 300
+
+    @patch('requests.get')
+    def test_get_status_code_v2(self, mock_get):
+        mock_get.return_value.status_code = 200
+        prog = MySuperProgram()
+        status = prog.get_current_status_code()
+        print('status code is ' + str(status.status_code))
+
+        self.assertEqual(status.status_code, 200)
+
 
 
 if __name__ == '__main__':
