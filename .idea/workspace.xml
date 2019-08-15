@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="bd0b2fda-fe62-4fc5-b29b-4d86de722e37" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example003/test_my_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/example003/test_my_service.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,7 +15,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/example003/rest_api_service.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2">
+            <state relative-caret-position="825">
               <caret line="59" selection-start-line="59" selection-end-line="59" />
               <folding>
                 <element signature="e#44#66#0" expanded="true" />
@@ -34,46 +33,34 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/example003/test_my_service.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/example005/test_selenium.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+            <state relative-caret-position="105">
+              <caret line="7" column="13" lean-forward="true" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+              <folding>
+                <element signature="e#0#22#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/example005/pages.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/example005/conftest.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="29" column="50" selection-start-line="29" selection-start-column="50" selection-end-line="29" selection-end-column="50" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/example004/product_example.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/example004/tests.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="42" lean-forward="true" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/example004/test_pytest.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-              <folding>
-                <element signature="e#0#35#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -107,17 +94,20 @@
         <option value="$PROJECT_DIR$/example003/test_my_service.py" />
         <option value="$PROJECT_DIR$/example004/test_unitests_with_mock.py" />
         <option value="$PROJECT_DIR$/example004/my_file.txt" />
-        <option value="$PROJECT_DIR$/example004/product_example.py" />
-        <option value="$PROJECT_DIR$/example004/tests.py" />
         <option value="$PROJECT_DIR$/example004/test_pytest.py" />
+        <option value="$PROJECT_DIR$/example004/product_example.py" />
+        <option value="$PROJECT_DIR$/example004/users.py" />
+        <option value="$PROJECT_DIR$/example004/test_users.py" />
+        <option value="$PROJECT_DIR$/example004/tests.py" />
+        <option value="$PROJECT_DIR$/example005/test_selenium.py" />
+        <option value="$PROJECT_DIR$/example005/conftest.py" />
+        <option value="$PROJECT_DIR$/example005/pages.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="6" />
-    <option name="y" value="23" />
-    <option name="width" value="1400" />
-    <option name="height" value="795" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -148,6 +138,16 @@
               <item name="api_test_examples" type="b2602c69:ProjectViewProjectNode" />
               <item name="api_test_examples" type="462c0819:PsiDirectoryNode" />
               <item name="example004" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="api_test_examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="api_test_examples" type="462c0819:PsiDirectoryNode" />
+              <item name="example005" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="api_test_examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="api_test_examples" type="462c0819:PsiDirectoryNode" />
+              <item name="screenshots" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -291,9 +291,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_test_my_service_test_check_wrong_login - 2019.08.12 at 16h 17m 04s.xml">
-      <configuration name="pytest for test_my_service.test_check_wrong_login" configurationId="tests" />
-    </history-entry>
     <history-entry file="pytest_for_test_my_service_test_check_wrong_login - 2019.08.12 at 16h 19m 36s.xml">
       <configuration name="pytest for test_my_service.test_check_wrong_login" configurationId="tests" />
     </history-entry>
@@ -321,17 +318,19 @@
     <history-entry file="pytest_for_example003_test_my_service_test_check_login - 2019.08.12 at 17h 54m 33s.xml">
       <configuration name="pytest for example003.test_my_service.test_check_login" configurationId="tests" />
     </history-entry>
+    <history-entry file="pytest_for_test_pytest_test_get_current_ip - 2019.08.13 at 20h 14m 06s.xml">
+      <configuration name="pytest for test_pytest.test_get_current_ip" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="6" y="23" width="1400" height="795" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24945612" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24242425" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32859176" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32859176" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -344,6 +343,25 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24945612" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32859176" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32859176" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/example001/rest_api_services.py">
@@ -405,9 +423,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/example003/test_my_service.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/example003/rest_api_service.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2">
+        <state relative-caret-position="825">
           <caret line="59" selection-start-line="59" selection-end-line="59" />
           <folding>
             <element signature="e#44#66#0" expanded="true" />
@@ -415,12 +443,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/example003/test_my_service.py">
+    <entry file="file://$PROJECT_DIR$/example004/test_users.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+        <state relative-caret-position="1410">
+          <caret line="96" column="19" selection-start-line="96" selection-start-column="19" selection-end-line="96" selection-end-column="19" />
           <folding>
-            <element signature="e#0#13#0" expanded="true" />
+            <element signature="e#27#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example004/users.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example004/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example004/product_example.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="45" column="25" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example004/test_pytest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -432,29 +494,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/example004/product_example.py">
+    <entry file="file://$PROJECT_DIR$/example005/conftest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example004/tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="42" lean-forward="true" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+        <state relative-caret-position="435">
+          <caret line="29" column="50" selection-start-line="29" selection-start-column="50" selection-end-line="29" selection-end-column="50" />
           <folding>
-            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/example004/test_pytest.py">
+    <entry file="file://$PROJECT_DIR$/example005/pages.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example005/test_selenium.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="13" lean-forward="true" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding>
-            <element signature="e#0#35#0" expanded="true" />
+            <element signature="e#0#22#0" expanded="true" />
           </folding>
         </state>
       </provider>
