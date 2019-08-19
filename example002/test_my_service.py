@@ -2,6 +2,7 @@ import pytest
 import requests
 from requests.auth import HTTPBasicAuth
 
+
 user = 'test_user'
 password = 'test_password'
 wrong_user = 'test_user1'
@@ -15,6 +16,7 @@ def auth_cookie():
     url = 'http://0.0.0.0:7000/login'
     result = requests.get(url, auth=HTTPBasicAuth(user, password))
     data = result.json()
+
 
     yield data['auth_cookie']
 

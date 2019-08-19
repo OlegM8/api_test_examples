@@ -3,9 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="bd0b2fda-fe62-4fc5-b29b-4d86de722e37" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example005/pages.py" beforeDir="false" afterPath="$PROJECT_DIR$/example005/pages.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example002/test_my_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/example002/test_my_service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example005/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/example005/conftest.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/example005/test_selenium.py" beforeDir="false" afterPath="$PROJECT_DIR$/example005/test_selenium.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/890fc972-26bb-4a9c-a647-c4b7e68a2454.png" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,17 +30,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/example002/test_my_service.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-378">
-              <caret column="13" selection-start-column="13" selection-end-column="13" />
+            <state relative-caret-position="270">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/example005/test_selenium.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+            <state relative-caret-position="323">
+              <caret line="27" column="12" lean-forward="true" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
               <folding>
                 <element signature="e#0#22#0" expanded="true" />
               </folding>
@@ -52,7 +55,7 @@
         <entry file="file://$PROJECT_DIR$/example005/pages.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
               <folding>
                 <element signature="e#0#66#0" expanded="true" />
               </folding>
@@ -60,11 +63,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/example005/conftest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+            <state relative-caret-position="365">
+              <caret line="39" column="47" lean-forward="true" selection-start-line="39" selection-start-column="47" selection-end-line="39" selection-end-column="47" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -94,7 +97,6 @@
         <option value="$PROJECT_DIR$/lesson002/test_my_service.py" />
         <option value="$PROJECT_DIR$/lesson003/utils.py" />
         <option value="$PROJECT_DIR$/lesson003/test_config.conf" />
-        <option value="$PROJECT_DIR$/example002/test_my_service.py" />
         <option value="$PROJECT_DIR$/example003/utils.py" />
         <option value="$PROJECT_DIR$/example003/test_config.conf" />
         <option value="$PROJECT_DIR$/example003/test_my_service.py" />
@@ -105,9 +107,10 @@
         <option value="$PROJECT_DIR$/example004/users.py" />
         <option value="$PROJECT_DIR$/example004/test_users.py" />
         <option value="$PROJECT_DIR$/example004/tests.py" />
-        <option value="$PROJECT_DIR$/example005/conftest.py" />
-        <option value="$PROJECT_DIR$/example005/test_selenium.py" />
         <option value="$PROJECT_DIR$/example005/pages.py" />
+        <option value="$PROJECT_DIR$/example002/test_my_service.py" />
+        <option value="$PROJECT_DIR$/example005/test_selenium.py" />
+        <option value="$PROJECT_DIR$/example005/conftest.py" />
       </list>
     </option>
   </component>
@@ -123,7 +126,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -160,6 +162,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -494,39 +497,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/example005/test_selenium.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="27" column="12" lean-forward="true" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/example005/pages.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
           <folding>
             <element signature="e#0#66#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/example005/conftest.py">
+    <entry file="file://$PROJECT_DIR$/example002/test_my_service.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+        <state relative-caret-position="270">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/example002/test_my_service.py">
+    <entry file="file://$PROJECT_DIR$/example005/conftest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-378">
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example005/test_selenium.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        <state relative-caret-position="365">
+          <caret line="39" column="47" lean-forward="true" selection-start-line="39" selection-start-column="47" selection-end-line="39" selection-end-column="47" />
           <folding>
-            <element signature="e#0#22#0" expanded="true" />
+            <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>

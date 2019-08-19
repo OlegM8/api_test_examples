@@ -27,7 +27,6 @@ def test_open_men_section(web_browser):
     assert filter_page.section_title.text == 'МУЖСКАЯ КОЛЛЕКЦИЯ'
     sleep(2)
 
-
 @pytest.mark.run
 def test_add_to_chart(web_browser):
     page = ProskaterMainPage(web_browser)
