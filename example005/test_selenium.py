@@ -25,18 +25,28 @@ def test_open_men_section(web_browser):
     page = ProskaterMainPage(web_browser)
     filter_page = page.open_section('мужское')
     assert filter_page.section_title.text == 'МУЖСКАЯ КОЛЛЕКЦИЯ'
-    sleep(2)
 
-@pytest.mark.run
+
+
 def test_add_to_chart(web_browser):
     page = ProskaterMainPage(web_browser)
     search_page = page.search('кеды')
     search_page.add_to_cart()
-    sleep(5)
-
-def delete_from_chart(web_browser):
-    pass
+    assert search_page.cart_counter.text == '1'
 
 
-def sort_by_price(web_browser):
-    pass
+def test_delete_from_chart(web_browser):
+    page = ProskaterMainPage(web_browser)
+    search_page = page.search('кеды')
+    search_page.add_to_cart()
+    cart_page = search_page.open_cart()
+    cart_page.delete_from_chart()
+    assert int(cart_page.total_price.text) == 0
+
+
+@pytest.mark.run
+def test_sort_by_price(web_browser):
+    page = ProskaterMainPage(web_browser)
+    search_page = page.search('кеды')
+    price_list = search_page.find_all_prices
+    print(price_list)

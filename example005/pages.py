@@ -32,6 +32,10 @@ class SearchResultsPage(PageObject):
     no_results_found = PageElement(xpath='(//div[@class="no-products"])[2]')
     first_result = PageElement(xpath='(//div[@class="photo"])[1]')
     add_to_cart_button = PageElement(xpath='(//div[@class="add-cart"])[1]') # first result "Add to cart" button
+    first_available_size = PageElement(xpath='((//div[@class="photo"])[1]//li[@class="size-type-cm active"]//ul[@class="size-list"]//li/label[not(contains(@class,"disabled"))])[1]')
+    cart_counter = PageElement(xpath='//span[@class="count-contents"]')
+    open_cart_button = PageElement(xpath='(//span[@class="bg"])[1]')
+    all_sums = MultiPageElement(xpath='//div[@class="sum"]')
 
     def __init__(self, web_driver, uri=''):
         super().__init__(web_driver, uri)
@@ -39,11 +43,23 @@ class SearchResultsPage(PageObject):
         sleep(2)
 
     def add_to_cart(self):
-        sleep(5)
         action = ActionChains(self.w)
-        # action.move_to_element(self.first_result).pause(5).perform()
-        #sleep(10)
-        self.add_to_cart_button.click()
+        action.move_to_element(self.first_result).click(self.add_to_cart_button).perform()
+        sleep(1)
+        self.first_available_size.click()
+        sleep(1)
+
+    def open_cart(self):
+        self.open_cart_button.click()
+        return ChartPage(self.w)
+
+
+    def find_all_prices(self):
+        prices = self.w.find_elements_by_xpath('//div[@class="sum"]')
+        price_list = []
+        for i in prices:
+            price_list = i.text
+        return price_list
 
 class FilterPage(PageObject):
 
@@ -53,4 +69,17 @@ class FilterPage(PageObject):
     def __init__(self, web_driver, uri=''):
         super().__init__(web_driver, uri)
         self.popup_close.click()
-        sleep(5)
+        sleep(2)
+
+
+class ChartPage(PageObject):
+
+    del_from_cart_button = PageElement(xpath='//a[@class="del"]')
+    total_price = PageElement(xpath='(//div[@class="total"]//span[@class="value"])[1]')
+
+    def __init__(self, web_driver, uri=''):
+        super().__init__(web_driver, uri)
+
+    def delete_from_chart(self):
+        self.del_from_cart_button.click()
+        sleep(1)
