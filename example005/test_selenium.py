@@ -1,5 +1,5 @@
 from time import sleep
-from pages import ProskaterMainPage
+from .pages import ProskaterMainPage
 import pytest
 # python3 -m pytest -v -s --driver Chrome --driver-path ../driver/chromedriver -m run test_selenium.p
 
@@ -48,5 +48,7 @@ def test_delete_from_chart(web_browser):
 def test_sort_by_price(web_browser):
     page = ProskaterMainPage(web_browser)
     search_page = page.search('кеды')
-    price_list = search_page.find_all_prices
-    print(price_list)
+    search_page.sort_by_price_asc()
+    price_list = search_page.find_all_prices()
+    sorted_price_list = sorted(price_list)
+    assert price_list[0] == sorted_price_list[0]

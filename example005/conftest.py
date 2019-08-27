@@ -18,7 +18,7 @@ def web_browser(request):
     option = Options()
 
     option.add_argument("--disable-infobars")
-    option.add_argument("start-maximized")
+    option.add_argument("--start-maximized")
     option.add_argument("--disable-extensions")
 
     option.add_experimental_option("prefs", {

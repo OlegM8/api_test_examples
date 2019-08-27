@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd0b2fda-fe62-4fc5-b29b-4d86de722e37" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/driver/chromedriver" beforeDir="false" afterPath="$PROJECT_DIR$/driver/chromedriver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example005/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/example005/conftest.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/example005/pages.py" beforeDir="false" afterPath="$PROJECT_DIR$/example005/pages.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/example005/test_selenium.py" beforeDir="false" afterPath="$PROJECT_DIR$/example005/test_selenium.py" afterDir="false" />
     </list>
@@ -16,7 +19,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/example003/rest_api_service.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="481">
+            <state relative-caret-position="365">
               <caret line="59" selection-start-line="59" selection-end-line="59" />
               <folding>
                 <element signature="e#44#66#0" expanded="true" />
@@ -28,7 +31,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/example002/test_my_service.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
+            <state relative-caret-position="270">
               <caret line="18" selection-start-line="18" selection-end-line="18" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
@@ -40,8 +43,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/example005/test_selenium.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="429">
-              <caret line="49" column="37" lean-forward="true" selection-start-line="49" selection-start-column="37" selection-end-line="49" selection-end-column="37" />
+            <state relative-caret-position="245">
+              <caret line="50" column="35" selection-start-line="50" selection-start-column="35" selection-end-line="50" selection-end-column="35" />
               <folding>
                 <element signature="e#0#22#0" expanded="true" />
               </folding>
@@ -52,8 +55,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/example005/pages.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="365">
-              <caret line="61" column="25" lean-forward="true" selection-start-line="61" selection-start-column="25" selection-end-line="61" selection-end-column="25" />
+            <state relative-caret-position="166">
+              <caret line="66" column="32" lean-forward="true" selection-start-line="66" selection-start-column="32" selection-end-line="66" selection-end-column="32" />
               <folding>
                 <element signature="e#0#66#0" expanded="true" />
               </folding>
@@ -64,8 +67,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/example005/conftest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="463">
-              <caret line="44" column="8" selection-start-line="44" selection-start-column="8" selection-end-line="44" selection-end-column="8" />
+            <state relative-caret-position="20">
+              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -112,7 +115,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
@@ -124,6 +127,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -160,13 +164,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/example003" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -192,29 +195,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for example005.test_selenium.test_google">
-    <configuration name="product_example" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="api_auto" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/example004" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/example004/product_example.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest for example003.test_my_service.test_check_login" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.pytest for example005.test_selenium.test_sort_by_price">
+    <configuration name="pytest for example005.test_selenium.test_delete_from_chart" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="api_auto" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -225,7 +207,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;example003.test_my_service.test_check_login&quot;" />
+      <option name="_new_target" value="&quot;example005.test_selenium.test_delete_from_chart&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -244,22 +226,22 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_pytest.test_get_current_ip" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for example005.test_selenium.test_sort_by_price" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="api_auto" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/example004" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_pytest.test_get_current_ip&quot;" />
+      <option name="_new_target" value="&quot;example005.test_selenium.test_sort_by_price&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_selenium.test_google" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_selenium.test_sort_by_price" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="api_auto" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -270,17 +252,32 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_selenium.test_google&quot;" />
+      <option name="_new_target" value="&quot;test_selenium.test_sort_by_price&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in test_selenium.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="api_auto" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/example005" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/example005/test_selenium.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest for example005.test_selenium.test_sort_by_price" />
+        <item itemvalue="Python tests.pytest for test_selenium.test_sort_by_price" />
+        <item itemvalue="Python tests.pytest in test_selenium.py" />
+        <item itemvalue="Python tests.pytest for example005.test_selenium.test_delete_from_chart" />
         <item itemvalue="Python tests.pytest for example005.test_selenium.test_google" />
-        <item itemvalue="Python tests.pytest for test_selenium.test_google" />
-        <item itemvalue="Python tests.pytest for test_pytest.test_get_current_ip" />
-        <item itemvalue="Python.product_example" />
-        <item itemvalue="Python tests.pytest for example003.test_my_service.test_check_login" />
       </list>
     </recent_temporary>
   </component>
@@ -298,39 +295,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_test_my_service_test_check_wrong_login - 2019.08.12 at 16h 21m 22s.xml">
-      <configuration name="pytest for test_my_service.test_check_wrong_login" configurationId="tests" />
+    <history-entry file="pytest_in_test_selenium_py - 2019.08.27 at 16h 16m 57s.xml">
+      <configuration name="pytest in test_selenium.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_example003_test_my_service_test_check_login - 2019.08.12 at 17h 42m 12s.xml">
-      <configuration name="pytest for example003.test_my_service.test_check_login" configurationId="tests" />
+    <history-entry file="pytest_in_test_selenium_py - 2019.08.27 at 16h 18m 11s.xml">
+      <configuration name="pytest in test_selenium.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_example003_test_my_service_test_check_login - 2019.08.12 at 17h 42m 50s.xml">
-      <configuration name="pytest for example003.test_my_service.test_check_login" configurationId="tests" />
+    <history-entry file="pytest_for_example005_test_selenium_test_sort_by_price - 2019.08.27 at 16h 26m 58s.xml">
+      <configuration name="pytest for example005.test_selenium.test_sort_by_price" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_example003_test_my_service_test_check_login - 2019.08.12 at 17h 50m 18s.xml">
-      <configuration name="pytest for example003.test_my_service.test_check_login" configurationId="tests" />
+    <history-entry file="pytest_for_example005_test_selenium_test_delete_from_chart - 2019.08.27 at 16h 27m 24s.xml">
+      <configuration name="pytest for example005.test_selenium.test_delete_from_chart" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_example003_test_my_service_test_check_login - 2019.08.12 at 17h 52m 00s.xml">
-      <configuration name="pytest for example003.test_my_service.test_check_login" configurationId="tests" />
+    <history-entry file="pytest_for_example005_test_selenium_test_sort_by_price - 2019.08.27 at 16h 27m 33s.xml">
+      <configuration name="pytest for example005.test_selenium.test_sort_by_price" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_example003_test_my_service_test_check_login - 2019.08.12 at 17h 52m 10s.xml">
-      <configuration name="pytest for example003.test_my_service.test_check_login" configurationId="tests" />
+    <history-entry file="pytest_for_example005_test_selenium_test_sort_by_price - 2019.08.27 at 16h 27m 40s.xml">
+      <configuration name="pytest for example005.test_selenium.test_sort_by_price" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_example003_test_my_service_test_check_login - 2019.08.12 at 17h 54m 33s.xml">
-      <configuration name="pytest for example003.test_my_service.test_check_login" configurationId="tests" />
+    <history-entry file="pytest_in_test_selenium_py - 2019.08.27 at 16h 28m 59s.xml">
+      <configuration name="pytest in test_selenium.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_pytest_test_get_current_ip - 2019.08.13 at 20h 14m 06s.xml">
-      <configuration name="pytest for test_pytest.test_get_current_ip" configurationId="tests" />
+    <history-entry file="pytest_for_example005_test_selenium_test_sort_by_price - 2019.08.27 at 16h 29m 14s.xml">
+      <configuration name="pytest for example005.test_selenium.test_sort_by_price" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_selenium_test_google - 2019.08.15 at 19h 55m 31s.xml">
-      <configuration name="pytest for test_selenium.test_google" configurationId="tests" />
+    <history-entry file="pytest_for_test_selenium_test_sort_by_price - 2019.08.27 at 16h 29m 43s.xml">
+      <configuration name="pytest for test_selenium.test_sort_by_price" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_example005_test_selenium_test_google - 2019.08.15 at 19h 55m 39s.xml">
-      <configuration name="pytest for example005.test_selenium.test_google" configurationId="tests" />
+    <history-entry file="pytest_for_example005_test_selenium_test_sort_by_price - 2019.08.27 at 16h 29m 55s.xml">
+      <configuration name="pytest for example005.test_selenium.test_sort_by_price" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="806" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24242425" />
@@ -346,7 +343,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Python Console" order="10" visible="true" weight="0.32771084" />
+      <window_info active="true" anchor="bottom" id="Python Console" order="10" visible="true" weight="0.3809524" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -487,7 +484,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/example003/rest_api_service.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="481">
+        <state relative-caret-position="365">
           <caret line="59" selection-start-line="59" selection-end-line="59" />
           <folding>
             <element signature="e#44#66#0" expanded="true" />
@@ -495,20 +492,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/example005/conftest.py">
+    <entry file="file://$PROJECT_DIR$/example002/test_my_service.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="463">
-          <caret line="44" column="8" selection-start-line="44" selection-start-column="8" selection-end-line="44" selection-end-column="8" />
+        <state relative-caret-position="270">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/example002/test_my_service.py">
+    <entry file="file://$PROJECT_DIR$/example005/conftest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="20">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
@@ -517,8 +514,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/example005/test_selenium.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="49" column="37" lean-forward="true" selection-start-line="49" selection-start-column="37" selection-end-line="49" selection-end-column="37" />
+        <state relative-caret-position="245">
+          <caret line="50" column="35" selection-start-line="50" selection-start-column="35" selection-end-line="50" selection-end-column="35" />
           <folding>
             <element signature="e#0#22#0" expanded="true" />
           </folding>
@@ -527,8 +524,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/example005/pages.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="61" column="25" lean-forward="true" selection-start-line="61" selection-start-column="25" selection-end-line="61" selection-end-column="25" />
+        <state relative-caret-position="166">
+          <caret line="66" column="32" lean-forward="true" selection-start-line="66" selection-start-column="32" selection-end-line="66" selection-end-column="32" />
           <folding>
             <element signature="e#0#66#0" expanded="true" />
           </folding>

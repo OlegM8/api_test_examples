@@ -36,6 +36,9 @@ class SearchResultsPage(PageObject):
     cart_counter = PageElement(xpath='//span[@class="count-contents"]')
     open_cart_button = PageElement(xpath='(//span[@class="bg"])[1]')
     all_sums = MultiPageElement(xpath='//div[@class="sum"]')
+    sorting_dropdown = PageElement(xpath='//div[@class="sort-box"]//span[text()="Популярное"]')
+    sort_by_price_asc_b = PageElement(xpath='//span[text()="По возрастанию цены"]')
+
 
     def __init__(self, web_driver, uri=''):
         super().__init__(web_driver, uri)
@@ -57,9 +60,15 @@ class SearchResultsPage(PageObject):
     def find_all_prices(self):
         prices = self.w.find_elements_by_xpath('//div[@class="sum"]')
         price_list = []
-        for i in prices:
-            price_list = i.text
+        for i in range(len(prices)):
+            price_list.append(prices[i].text)
         return price_list
+
+    def sort_by_price_asc(self):
+        action = ActionChains(self.w)
+        action.move_to_element(self.sorting_dropdown).click(self.sort_by_price_asc_b).perform()
+        sleep(2)
+
 
 class FilterPage(PageObject):
 
