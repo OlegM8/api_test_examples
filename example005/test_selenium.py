@@ -3,14 +3,15 @@ from .pages import ProskaterMainPage
 import pytest
 # python3 -m pytest -v -s --driver Chrome --driver-path ../driver/chromedriver -m run test_selenium.p
 
-def test_search(web_browser):
-    page = ProskaterMainPage(web_browser)
 
-    search_page = page.search('кеды')
-    sleep(5)
-    assert len(search_page.search_results) == 40
-    assert int(search_page.displayed_results_number.text) == 40
-    assert int(search_page.all_results_number.text) >= 40
+@pytest.mark.parametrize('itemn', ['кеды', 'vans', 'g-shock', 'rip curl'])
+def test_search(web_browser, itemn):
+    page = ProskaterMainPage(web_browser)
+    search_page = page.search(itemn)
+    sleep(1)
+    assert len(search_page.search_results) > 0
+    assert int(search_page.displayed_results_number.text) > 0
+    assert int(search_page.all_results_number.text) >= 0
 
 
 def test_search_no_results(web_browser):
@@ -44,7 +45,7 @@ def test_delete_from_chart(web_browser):
     assert int(cart_page.total_price.text) == 0
 
 
-@pytest.mark.run
+
 def test_sort_by_price(web_browser):
     page = ProskaterMainPage(web_browser)
     search_page = page.search('кеды')

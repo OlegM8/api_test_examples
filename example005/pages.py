@@ -2,6 +2,8 @@ from page_objects import PageObject, PageElement, MultiPageElement
 from time import sleep
 from selenium.webdriver import ActionChains
 
+
+
 class ProskaterMainPage(PageObject):
 
     search_text = PageElement(name='keywords')
@@ -26,7 +28,8 @@ class ProskaterMainPage(PageObject):
 class SearchResultsPage(PageObject):
 
     search_results = MultiPageElement(xpath='//div[@class="photo"]')
-    popup_close = PageElement(xpath='(//a[@class="btn-close1"])[9]')
+    popup_close = PageElement(xpath='//div[@class="header_div"]//a[@class="btn-close1"]')
+    #popup_close = PageElement(xpath='(//a[@class="btn-close1"])[9]')
     displayed_results_number = PageElement(xpath='//*[@class="listing-progress-text__viewed-count"]')
     all_results_number = PageElement(xpath='//*[@class="listing-progress-text__all-count"]')
     no_results_found = PageElement(xpath='(//div[@class="no-products"])[2]')
@@ -40,9 +43,15 @@ class SearchResultsPage(PageObject):
     sort_by_price_asc_b = PageElement(xpath='//span[text()="По возрастанию цены"]')
 
 
+    def close_popup(self):
+        if self.popup_close:
+            self.popup_close.click()
+        else:
+            pass
+
     def __init__(self, web_driver, uri=''):
         super().__init__(web_driver, uri)
-        self.popup_close.click()
+        self.close_popup()
         sleep(2)
 
     def add_to_cart(self):
